@@ -16,8 +16,8 @@ class PostTableSeeder extends Seeder
     public function run()
     {
         $auther1=User::create([
-            'name'=>'saif',
-            'email'=>'saifhd85@gmail.com',
+            'name'=>'saif hd',
+            'email'=>'saifhd95@gmail.com',
             'password'=>Hash::make('saif1234')
         ]);
         $auther2=User::create([
